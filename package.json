@@ -14,7 +14,7 @@
     "typescript": "^2.2.2"
   },
   "scripts": {
-    "start": "nodemon --exec ./node_modules/.bin/ts-node -- ./app.ts",
-    "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register"
+    "start": "NODE_PATH=./ nodemon --exec ./node_modules/.bin/ts-node -- ./app.ts",
+    "test": "NODE_PATH=./ mocha --compilers ts:ts-node/register,tsx:ts-node/register"
   }
 }
