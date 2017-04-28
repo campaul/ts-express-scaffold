@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "target": "es5",
         "noImplicitAny": false,
         "sourceMap": false,
+        "target": "es5",
         "typeRoots": ["node_modules/@types"]
     }
 }
